@@ -1,0 +1,40 @@
+/*This is a comment*/
+
+h1 {
+  font-size: 80px;
+  font-family: arial;
+  font-color: purple;
+}
+
+#top {
+  background-color: #D2B48C;
+  font-family: helvetica;
+}
+
+#top h1 {
+  color: green;
+}
+
+#bottom label {
+  color: orange;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-left: 10px;
+  font-size: 2vw;
+}
+
+ul {
+  color: red;
+  font-family: arial;
+  font-weight: 800;
+}
+
+img {
+  width: 20vw;
+  margin: 20px;
+}
