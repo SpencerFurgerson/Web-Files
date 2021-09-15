@@ -1,0 +1,102 @@
+#about {
+  background-color: #E43D40;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 30px;
+  color: white;
+  font-family: tahoma;
+}
+
+body {
+  background-image: url(/Assets/pic.jpg);
+  margin: 0;
+  background-size: cover;
+  background-position: top;
+  background-image:
+        linear-gradient(rgba(210, 180, 140, 0.8), rgba(210, 180, 140, 0.8)),
+        url(/Assets/pic.jpg);
+}
+
+#all {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 3vw;
+}
+
+h3 {
+  font-family: tahoma;
+  font-size: 30px;
+  margin-top: 100px;
+  color: #E43D40;
+}
+
+#goals {
+  padding-top: 20px;
+}
+
+#week2 {
+  font-size: 30px;
+  margin-bottom: 10vw;
+  margin-right: 26vw;
+  padding-bottom: 20px;
+  margin-top: 5vw;
+  padding-top: 1vw;
+  padding-left: 2vw;
+  color: white;
+  background-color: #E43D40;
+  font-family: tahoma;
+  font-weight: bold;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #ececec;
+}
+
+p {
+  font-size: 18px;
+  font-family: tahoma;
+  font-weight: 300;
+}
+
+ul {
+  font-size: 20px;
+}
+
+li {
+  padding-top: 10px;
+  font-family: tahoma;
+}
+
+img {
+  margin-left: 30vw;
+  margin-top: -6vw;
+}
+
+#bottom {
+  background-color: #E43D40;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#tweet{
+  margin-left: 0vw;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#ig {
+  margin-left: 2vw;
+}
+
+#LI {
+  margin-left: 2vw;
+}
+
+#major {
+  margin-top: -1vw;
+}
