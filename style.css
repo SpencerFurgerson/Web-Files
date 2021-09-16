@@ -9,13 +9,13 @@
 }
 
 body {
-  background-image: url(/Assets/pic.jpg);
+  background-image: url(Assets/pic.jpg);
   margin: 0;
   background-size: cover;
   background-position: top;
   background-image:
         linear-gradient(rgba(210, 180, 140, 0.8), rgba(210, 180, 140, 0.8)),
-        url(/Assets/pic.jpg);
+        url(Assets/pic.jpg);
 }
 
 #all {
