@@ -49,6 +49,10 @@ h3 {
   font-weight: bold;
 }
 
+a:default {
+  color: white;
+}
+
 a:visited {
   color: white;
 }
