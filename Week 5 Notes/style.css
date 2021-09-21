@@ -1,0 +1,23 @@
+body {
+  font-family: "Fjalla One";
+  font-size: 2vw;
+  font-weight:
+}
+
+p {
+  color: rgb(100,100,100)
+}
+
+h1 {
+  border: solid rgb(100,100,100);
+  font-family: "Fjalla One"
+}
+
+.grey {
+  color: grey;
+}
+
+hr {
+  border-width: 3px;
+  border:dashed;
+}
