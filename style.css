@@ -71,8 +71,21 @@ h3 {
 
 #week5 {
   font-size: 20px;
-  margin-bottom: 10vw;
+  margin-bottom: 1vw;
   margin-right: 31vw;
+  padding-bottom: 20px;
+  padding-top: 1vw;
+  padding-left: 2vw;
+  color: white;
+  background-color: #4DA167;
+  font-family: "Trebuchet MS";
+  border-radius: 5px;
+}
+
+#week6 {
+  font-size: 20px;
+  margin-bottom: 10vw;
+  margin-right: 44vw;
   padding-bottom: 20px;
   padding-top: 1vw;
   padding-left: 2vw;

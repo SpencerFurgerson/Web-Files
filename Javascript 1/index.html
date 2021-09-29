@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+  </head>
+  <body>
+    <section id="hero">
+      <h1 id="hero-text">Ahoy Matey!</h1>
+      <img id="bigpic" src="https://news.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/39781_72dpi.jpg" alt="">
+    </section>
+
+    <section id="one">
+      <button id="mybutton" onclick="playAudio('mysound.mp3')">Walk the Plank</button>
+      <h2>Section 1</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </section>
+
+    <section id="two">
+      <h2>Section 2</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </section>
+
+    <section id="three">
+      <button id="mybutton2">Return to Land</button>
+    </section>
+
+    <script>
+      console.log("javascript working");
+      document.getElementById("mybutton").addEventListener("click", buttonOne);
+      document.getElementById("mybutton").addEventListener("click", play);
+      document.getElementById("mybutton2").addEventListener("click", play2);
+      document.getElementById("mybutton2").addEventListener("click", change);
+
+
+      function buttonOne(){
+        document.body.style.backgroundImage = "url(img/water.jpeg)";
+        document.body.style.backgroundSize = "1800px 2000px";
+      }
+
+      function play() {
+        audio2.pause();
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+
+      function play2() {
+        audio.pause();
+        var audio2 = document.getElementById("audio2");
+        audio2.play();
+      }
+
+      function change(){
+        document.getElementById("hero-text").innerHTML = "You Survived!";
+        document.getElementById("hero-text").style.marginRight = "52vw";
+        document.body.style.removeProperty("background-image");
+        document.getElementById("bigpic").src = "img/beach.jpeg";
+      }
+
+    </script>
+
+    <audio id="audio" src="img/pirate.mp3"></audio>
+    <audio id="audio2" src="img/beach.mp3"></audio>
+
+  </body>
+
+</html>

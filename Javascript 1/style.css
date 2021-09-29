@@ -1,0 +1,71 @@
+p {
+  color: white;
+  font-family: "HELVETICA";
+}
+
+h1,h2 {
+  font-family: "Bebas Neue";
+  color: White;
+}
+
+#hero {
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+#hero img {
+  width: 100vw;
+  position: relative;
+  bottom: 50px;
+}
+
+#hero h1 {
+  z-index: 1;
+  position: relative;
+  top: 30vw;
+  font-size: 7vw;
+  margin: 0 0 0 10vw;
+  background-color: #242b64;
+  padding-left: 3vw;
+  padding-top: 1vw;
+  margin-right: 55vw;
+}
+
+#one, #two, #three {
+  margin-left: 10vw;
+  margin-right: 3vw;
+  margin-top: 5vw;
+  margin-right: 15vw;
+}
+
+#three, {
+  margin-bottom: 10vw;
+}
+
+button {
+  background-color: #242b64;
+  color: white;
+  font-family:"Bebas Neue";
+  border-radius: 5px;
+  font-size: 2vw;
+  margin-top: 2vw;
+  padding: 1vw 10vw 1vw 10vw;
+}
+
+button:hover {
+  border: solid;
+  border-color: black;
+}
+
+#mybutton2 {
+  margin-bottom: 10vw;
+}
+
+#mybutton {
+  margin-bottom: 5vw;
+}
