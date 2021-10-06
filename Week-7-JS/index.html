@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans"
+</head>
+<body>
+
+<section id="flex">
+  <div class="flexitem">
+    <section id="quotesection">
+    <h1 id="qtext">Welcome to the Disney Park Archive! Click to learn more.</h1>
+    <button id="newquote">New Park</button>
+    </section>
+  </div>
+
+  <div class="flexitem2">
+    <h2 id='title'>Welcome!</h2>
+  </div>
+
+</section>
+
+<script>
+  const quotes = ["Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built to completion under the direct supervision of Walt Disney.", "Opened on October 1, 1971, comprises four theme parks (Magic Kingdom, Epcot, Disney's Hollywood Studios, and Disney's Animal Kingdom), two water parks (Disney's Blizzard Beach and Disney's Typhoon Lagoon), 27 themed resort hotels, nine non-Disney hotels, several golf courses, a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs.", "Disneyland Paris, formerly Euro Disney Resort, is an entertainment resort in Chessy, France, a town located 32 km (20 mi) east of the centre of Paris. It encompasses two theme parks, many resort hotels, Disney Nature Resorts, a shopping, dining, and entertainment complex, and a golf course, in addition to several additional recreational and entertainment venues. Disneyland Park is the original theme park of the complex, opening with the resort on 12 April 1992.", "Shanghai Disney Resort (Chinese: 上海迪士尼度假区) is a themed resort in Pudong, Shanghai, China. It is the first Disney park resort in mainland China and the second in China, after the Hong Kong Disneyland Resort. The resort opened to the public on June 16, 2016.[3][4]", "The Hong Kong Disneyland Resort is a resort built and owned by Hong Kong International Theme Parks Limited, a joint venture of the Government of Hong Kong and The Walt Disney Company in Hong Kong on reclaimed land beside Penny's Bay,[1] at the northeastern tip of Lantau Island, approximately two kilometres from Discovery Bay. Officially opened on 12 September 2005, the resort contains the Hong Kong Disneyland theme park, the Hong Kong Disneyland Hotel, Disney's Hollywood Hotel, Disney Explorers Lodge and several retail, dining and entertainment facilities covering 1.3 square kilometres (320 acres) of the island.", "The Tokyo Disney Resort (東京ディズニーリゾート, Tōkyō Dizunī Rizōto) (local nickname TDR[1]) is a theme park and vacation resort located in Urayasu, Chiba, Japan, just east of Tokyo. The resort is fully owned and operated by The Oriental Land Company under a license from The Walt Disney Company, who constructed and designed the resort and its various attractions."];
+  let quotecount = 0;
+  const names = ["Disneyland", "DisneyWorld", "Disneyland Paris", "Shanghai Disney", "Hong Kong Disney", "Tokyo Disney"];
+  let namecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    document.getElementById("title").innerHTML = names[quotecount];
+    var combo = 'img/img' + (quotecount+1) + '.jpeg';
+    console.log(combo);
+    document.getElementById('flex').style.backgroundImage = 'url(' + combo + ')';
+    document.getElementById('flex').style.backgroundSize = 'cover';
+    if(quotecount>=5){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+  }
+
+</script>
+
+</body>
+
+</html>

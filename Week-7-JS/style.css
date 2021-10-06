@@ -1,0 +1,75 @@
+#quotesection{
+  background-color: rgb(0, 0, 0,0.6);
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  margin-right: 30vw;
+  padding: 27vh 10vw 20vw 7vw;
+  border-radius: 8px;
+  height: 30vh;
+  width: 25vw;
+  font-size: 20px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 2vw;
+  float: left;
+  margin-top: 1vh;
+  background-color: rgba(0,0,50);
+  color: #e8eaed;
+  font-family:"Open Sans";
+  font-weight:bold;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+button:active{
+  color: #c3c6c9;
+}
+
+h1{
+  color: #e8eaed;
+  font-family:"EB Garamond";
+  font-weight: 200;
+}
+
+#flex{
+  display: flex;
+  background-image: url('img/img1.jpeg');
+  background-size: cover;
+}
+
+div{
+
+}
+
+.flexitem{
+  flex-grow: 1;
+  margin: 0;
+  padding-bottom: 2vw;
+}
+
+.flexitem2{
+  flex-grow: 1;
+  padding-left: 5vw;
+  padding-right: 8vw;
+  padding-top: 43vw;
+  margin-left: -30vw;
+  font-size: 45px;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  background-color: rgba(0,0,50,0.7);
+  padding-left: 5vw;
+  padding-top: 1vw;
+  padding-right: 5vw;
+  padding-bottom: 1vw;
+}
