@@ -5,7 +5,7 @@
   margin-left: 20vw;
   margin-right: 20vw;
   margin-top: 4vw;
-  padding-top: 4vw;
+  padding-top: 5vw;
   padding-bottom: 5vw;
   border-radius: 10px;
 }
@@ -21,7 +21,7 @@ body {
 
 #uno {
   background-color: #8BE89F;
-  padding: 130px 50px 20px 50px;
+  padding: 130px 60px 20px 60px;
   font-family: 'Roboto', sans-serif;
   color: white;
   margin-right: 1vw;
@@ -29,7 +29,7 @@ body {
 
 #dos {
   background-color: #282A56;
-  padding: 130px 50px 20px 50px;
+  padding: 130px 60px 20px 60px;
   font-family: 'Roboto', sans-serif;
   margin-right: 1vw;
   color: white;
@@ -38,8 +38,7 @@ body {
 
 #tres {
   background-color: #2967C1;
-  margin-top: 4vw;
-  padding: 130px 50px 20px 50px;
+  padding: 130px 60px 20px 60px;
   font-family: 'Roboto', sans-serif;
   margin-right: 1vw;
   color: white;
@@ -47,16 +46,15 @@ body {
 
 #quatro {
   background-color: #9DE85D;
-  padding: 130px 50px 20px 50px;
+  padding: 130px 60px 20px 60px;
   font-family: 'Roboto', sans-serif;
   color: white;
-  margin-top: 1vw;
 }
 
 #top {
   display: flex;
   justify-content: center;
-  margin-top: 4vw;
+
 }
 
 #top2 {
@@ -135,36 +133,65 @@ h1  {
   margin-bottom: 1vw;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin-left: 5vw;
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
+  font-size: 25px;
+  color: #818181;
   display: block;
+  transition: 0.3s;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

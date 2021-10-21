@@ -7,6 +7,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://use.typekit.net/bne4mpw.css"></head>
 <body>
+<!--
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a id='pal1' href="#"> <img src="" alt=""> </a>
+    <a id='pal2' href="#"> <img src="" alt=""> </a>
+    <a id='pal3' href="#"> <img src="" alt=""> </a>
+    <a id='pal4' href="#"> <img src="" alt=""> </a>
+    <button type="button" name="button">More</button>
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776; Palette Ideas</button>
+
+  </div>
+
+-->
 
 <section id="top">
   <h1>Palette Picker</h1>
@@ -19,43 +35,35 @@
     <section id="flex">
 
       <div class="flexitem">
-        <p>LIGHT</p>
-        <div id="uno"> #Hex Code </div>
-        <button class="lock" type="button" name="button">LOCK</button>
+
+        <div id="uno">#8BE89F </div>
+        <button id="lockone" onclick="firstlock('')" class="lock" type="button" name="button">LOCK</button>
       </div>
 
       <div class="flexitem2">
-        <p>DARK</p>
-        <div id="dos"> #Hex Code</div>
-        <button class="lock" type="button" name="button">LOCK</button>
+
+        <div id="dos">#282A56</div>
+        <button id="locktwo" onclick="seclock('')" class="lock" type="button" name="button">LOCK</button>
       </div>
 
       <div class="flexitem3">
-        <div id="tres"> #Hex Code</div>
-        <button class="lock" type="button" name="button">LOCK</button>
+        <div id="tres">#2967C1</div>
+        <button id="lockthree" onclick="threelock('')" class="lock" type="button" name="button">LOCK</button>
       </div>
 
       <div class="flexitem4">
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div>
-        <div id="quatro"> #Hex Code</div>
-        <button class="lock" type="button" name="button">LOCK</button>
+        <div id="quatro">#9DE85D</div>
+        <button id="lockfour" onclick="fourlock('')" class="lock" type="button" name="button">LOCK</button>
       </div>
 
     </section>
 
     <section id="butt">
-      <button id="random" type="button" name="button">RANDOMIZE</button>
+      <button onclick="randomizer('')" id="random" type="button" name="button">RANDOMIZE</button>
 
     </section>
 
-
+    <script src="scripts.js"></script>
 </body>
 
 </html>
