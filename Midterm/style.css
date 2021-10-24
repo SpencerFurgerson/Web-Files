@@ -123,16 +123,6 @@ h1  {
   font-family: 'Roboto', sans-serif;
 }
 
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  margin-top: -1vw;
-  margin-bottom: 1vw;
-}
-
 .sidebar {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -156,10 +146,6 @@ h1  {
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: #f1f1f1;
-}
 
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
@@ -194,4 +180,8 @@ h1  {
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+#spacer {
+  color: white;
 }
