@@ -100,18 +100,69 @@ function  randomizer() {
 
 }
 
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
 
-  //randomly select 4 images from image list
-  //fill image src with selected images
-
 }
 
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
+}
+
+
+function carni() {
+    document.getElementById('uno').style.backgroundColor = "#2E0940";
+    document.getElementById('uno').innerHTML = "#2E0940";
+    document.getElementById('dos').style.backgroundColor = "#C20945";
+    document.getElementById('dos').innerHTML = "#C20945";
+    document.getElementById('tres').style.backgroundColor = "#FFD500";
+    document.getElementById('tres').innerHTML = "#FFD500";
+    document.getElementById('quatro').style.backgroundColor = "#572A94";
+    document.getElementById('quatro').innerHTML = "#572A94";
+}
+
+function sea() {
+    document.getElementById('uno').style.backgroundColor = "#93A6CD";
+    document.getElementById('uno').innerHTML = "#93A6CD";
+    document.getElementById('dos').style.backgroundColor = "#524259";
+    document.getElementById('dos').innerHTML = "#524259";
+    document.getElementById('tres').style.backgroundColor = "#B8E5EA";
+    document.getElementById('tres').innerHTML = "#B8E5EA";
+    document.getElementById('quatro').style.backgroundColor = "#30477A";
+    document.getElementById('quatro').innerHTML = "#30477A";
+}
+
+function gp() {
+    document.getElementById('uno').style.backgroundColor = "#A4FF69";
+    document.getElementById('uno').innerHTML = "#A4FF69";
+    document.getElementById('dos').style.backgroundColor = "#B4E71F";
+    document.getElementById('dos').innerHTML = "#B4E71F";
+    document.getElementById('tres').style.backgroundColor = "#04FF5D";
+    document.getElementById('tres').innerHTML = "#04FF5D";
+    document.getElementById('quatro').style.backgroundColor = "#7A6DA8";
+    document.getElementById('quatro').innerHTML = "#7A6DA8";
+}
+
+function trop() {
+    document.getElementById('uno').style.backgroundColor = "#52F2D7";
+    document.getElementById('uno').innerHTML = "#52F2D7";
+    document.getElementById('dos').style.backgroundColor = "#2A59BC";
+    document.getElementById('dos').innerHTML = "#2A59BC";
+    document.getElementById('tres').style.backgroundColor = "#101DF1";
+    document.getElementById('tres').innerHTML = "#101DF1";
+    document.getElementById('quatro').style.backgroundColor = "#A8DF03";
+    document.getElementById('quatro').innerHTML = "#A8DF03";
+}
+
+function aspen() {
+    document.getElementById('uno').style.backgroundColor = "#F77732";
+    document.getElementById('uno').innerHTML = "#F77732";
+    document.getElementById('dos').style.backgroundColor = "#CEAA00";
+    document.getElementById('dos').innerHTML = "#CEAA00";
+    document.getElementById('tres').style.backgroundColor = "#ED1058";
+    document.getElementById('tres').innerHTML = "#ED1058";
+    document.getElementById('quatro').style.backgroundColor = "#F9AE60";
+    document.getElementById('quatro').innerHTML = "#F9AE60";
 }
