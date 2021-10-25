@@ -9,8 +9,6 @@ const colors = ['FF0000','F62222','F04C4C','F28888','F2B3B3','C91515','A41919','
 'D412EF','CB5DDA','DDA8E4','9B78A0','8D4597','731080','A024B0','F10FD6','E855D6','E492DA','A4719D','AF48A1','BD1AA7','7E106F','833C7A','996D94','722E6A','F10E94','E24EA6','DC96BF','9A6082','A9427E','7D1B54','BD1878','420B2B',
 'ED0F59','EA4F82','EC93B0','B06A81','C0456D','C20845','7E1839','89435A'];
 
-//declare list of image sources of palettes
-
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
