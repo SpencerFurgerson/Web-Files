@@ -76,7 +76,7 @@ body {
   right: 0;
 }
 
-#week2, #week5, #week6, #week7, #week8 {
+#week2, #week5, #week6, #week7, #week8, #Final {
   font-size: 18px;
   margin-bottom: 1vw;
   padding-bottom: 20px;
@@ -237,7 +237,7 @@ hr {
 }
 
 
-#week8 {
+#week8, #Final {
   margin-top: 2em;
 }
 
