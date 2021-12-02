@@ -214,9 +214,19 @@ a:default {
 }
 
 #headBar {
-  background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://s1.ticketm.net/dam/a/fe2/81454827-f023-49d3-8637-2d02e7e5efe2_1552571_TABLET_LANDSCAPE_LARGE_16_9.jpg");
+  background-size: cover;
+}
+
+#headBarArt {
+  background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-position: center;
+}
+
+#headBarProd {
+  background-image: url("https://wallpapercave.com/wp/wp9226316.jpg");
+  background-size: cover;
 }
 
 #Headtext {
@@ -241,4 +251,48 @@ a:default {
   margin-left: 3vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
+}
+
+#beat1 {
+  background-color: red;
+}
+
+#beat2 {
+  background-color: blue;
+}
+
+#beat3 {
+  background-color: green;
+}
+
+#beat4 {
+  background-color: yellow;
+}
+
+#beat5 {
+  background-color: orange;
+}
+
+#beat1, #beat2, #beat3, #beat4, #beat5 {
+  margin-bottom: 3vw;
+  width: 125px;
+  height: 125px;
+  margin-right: 1vw;
+}
+
+#allCols {
+  margin-right: 3vw;
+  margin-top: 2vw;
+}
+
+#musicPlayer {
+  background-color: black;
+}
+
+#exploreText {
+  color: white;
+}
+
+#full {
+  padding: 5vw;
 }
