@@ -22,12 +22,12 @@
       <div class="row" id="sub1">
 
         <div class="col-7">
-          <a href="music.html"><img src="https://pyxis.nymag.com/v1/imgs/8de/48b/56fcb4d792edc014ab0c93e1ede4297042-18-greta-van-fleet.rhorizontal.w1200.jpg" alt="" /></a>
+          <a href="music.html"><img id="subPic" src="https://pyxis.nymag.com/v1/imgs/8de/48b/56fcb4d792edc014ab0c93e1ede4297042-18-greta-van-fleet.rhorizontal.w1200.jpg" alt="" /></a>
         </div>
 
         <div class="col-5">
 
-          <h5 id="leftName">Musician</h5>
+          <h5 id="leftName">Greta Van Fleet</h5>
           <h6 id="leftUp">5 Updates</h6>
 
         </div>
@@ -37,12 +37,12 @@
       <div class="row" id="sub1">
 
         <div class="col-7">
-          <a href="art.html"><img src="https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" /> </a>
+          <a href="art.html"><img id="subPic" src="https://media.sanctuarymentalhealth.org/wp-content/uploads/2021/03/04151535/The-Starry-Night.jpg" alt="" /> </a>
         </div>
 
         <div class="col-5">
 
-          <h5 id="leftName">Artist</h5>
+          <h5 id="leftName">Van Gogh</h5>
           <h6 id="leftUp">3 Updates</h6>
 
         </div>
@@ -52,12 +52,12 @@
       <div class="row" id="sub1">
 
         <div class="col-7">
-          <a href="product.html"><img src="https://images.pexels.com/photos/3571093/pexels-photo-3571093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" /></a>
+          <a href="product.html"><img id="subPic" src="https://images.pexels.com/photos/3571093/pexels-photo-3571093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" /></a>
         </div>
 
         <div class="col-5">
 
-          <h5 id="leftName">Product</h5>
+          <h5 id="leftName">Apple</h5>
           <h6 id="leftUp">1 Update</h6>
 
         </div>
@@ -93,72 +93,82 @@
         <div class="row">
 
           <div class="col">
-            <h1 id='Headtext'>Artist</h1>
-            <h5 id='Headtexter'>Words</h5>
+            <h1 id='Headtext'>Greta Van Fleet</h1>
+            <h5 id='Headtexter'>Frankenmuth, Michigan</h5>
 
           </div>
 
         </div>
 
         <div class="bottomBar">
-          <h5 id="botText">hi</h5>
+          <h5 id="botText">Weclome to our channel!</h5>
         </div>
 
       </div>
 
       <div class="row" id="allCols">
 
-        <div class="col-5">
+        <div class="col-4">
 
           <div class="" id="musicPlayer">
 
             <h1>Song Name</h1>
             <h3>Album Name</h3>
+            <audio id="audio1" src="img/light.mp3"></audio>
+            <audio id="audio2" src="img/army.mp3"></audio>
+            <audio id="audio3" src="img/fires.mp3"></audio>
+            <audio id="audio4" src="img/light.mp3"></audio>
+            <audio id="audio5" src="img/army.mp3"></audio>
+            <audio id="audio6" src="img/fires.mp3"></audio>
+            <audio id="audio7" src="img/light.mp3"></audio>
+            <audio id="audio8" src="img/army.mp3"></audio>
+  \
+            <img onclick="player('')" id="playBut" src="https://lh3.googleusercontent.com/proxy/L9r3rQhu-uQVK58J52JsEeykpsQ9cYfje4sh5uLxmDyKxePIZIooHhNhSMp9X5rbAl01DOeZg92Rnhm-MGTBl7xMXROwZbA" alt="" width="100px">
 
           </div>
 
           <div class="" id="albums">
 
-            <div class="row" id="sub1">
+            <div class="row" id="album">
 
-              <div class="col-7">
-                <a href="music.html"><img src="https://pyxis.nymag.com/v1/imgs/8de/48b/56fcb4d792edc014ab0c93e1ede4297042-18-greta-van-fleet.rhorizontal.w1200.jpg" alt="" /></a>
+              <div class="col-7" id="alb1" onclick="player('alb1')">
+                <img src="https://m.media-amazon.com/images/I/81Dwd6--R2L._SL1200_.jpg" alt="" />
               </div>
 
               <div class="col-5">
 
-                <h5 id="leftName">Musician</h5>
-                <h6 id="leftUp">5 Updates</h6>
+                <h5 id="AlbName">The Battle at Garden's Gate</h5>
+                <h6 id="leftUp">12 Songs</h6>
 
               </div>
 
             </div>
 
-            <div class="row" id="sub1">
+            <div class="row" id="album">
 
-              <div class="col-7">
-                <a href="music.html"><img src="https://pyxis.nymag.com/v1/imgs/8de/48b/56fcb4d792edc014ab0c93e1ede4297042-18-greta-van-fleet.rhorizontal.w1200.jpg" alt="" /></a>
+              <div class="col-7" id="alb2" onclick="player('alb2')">
+                <img src="https://m.media-amazon.com/images/I/715ByyULmYL._SL1200_.jpg" alt="" />
               </div>
 
               <div class="col-5">
 
-                <h5 id="leftName">Musician</h5>
-                <h6 id="leftUp">5 Updates</h6>
+                <h5 id="AlbName">Anthem of the Peaceful Army</h5>
+                <h6 id="leftUp">11 Songs</h6>
 
               </div>
 
             </div>
 
-            <div class="row" id="sub1">
+            <div class="row" id="album">
 
-              <div class="col-7">
-                <a href="music.html"><img src="https://pyxis.nymag.com/v1/imgs/8de/48b/56fcb4d792edc014ab0c93e1ede4297042-18-greta-van-fleet.rhorizontal.w1200.jpg" alt="" /></a>
+              <div class="col-7" id="alb3" onclick="player('alb3')">
+                <img src="https://payload.cargocollective.com/1/16/534178/13207340/GVF_FTF_Final_1600_c.jpg" alt="" />
               </div>
 
               <div class="col-5">
 
-                <h5 id="leftName">Musician</h5>
-                <h6 id="leftUp">5 Updates</h6>
+                <h5 id="AlbName">From the Fires</h5>
+                <h6 id="leftUp">8 Songs</h6>
 
               </div>
 
@@ -170,45 +180,47 @@
 
         <div class="col-2">
 
-          <div id="beat1">
+          <h2 id="subName">Beats</h2>
 
-            <h1>hi</h1>
+          <div id="beat1" onclick="player('alb4')">
 
-          </div>
-
-          <div id="beat2">
-
-            <h1>hi</h1>
+            <img id="play" src="https://static.thenounproject.com/png/117815-200.png" alt="" width="80px">
 
           </div>
 
-          <div id="beat3">
+          <div id="beat2" onclick="player('alb5')">
 
-            <h1>hi</h1>
-
-          </div>
-
-          <div id="beat4">
-
-            <h1>hi</h1>
+            <img id="play" src="https://static.thenounproject.com/png/117815-200.png" alt="" width="80px">
 
           </div>
 
-          <div id="beat5">
+          <div id="beat3" onclick="player('alb6')">
 
-            <h1>hi</h1>
+            <img id="play" src="https://static.thenounproject.com/png/117815-200.png" alt="" width="80px">
+
+          </div>
+
+          <div id="beat4" onclick="player('alb7')">
+
+            <img id="play" src="https://static.thenounproject.com/png/117815-200.png" alt="" width="80px">
+
+          </div>
+
+          <div id="beat5" onclick="player('alb8')">
+
+            <img id="play" src="https://static.thenounproject.com/png/117815-200.png" alt="" width="80px">
 
           </div>
 
         </div>
 
-        <div class="col-5">
+        <div class="col-6">
 
           <div class="row">
 
             <div class="col">
 
-              <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/UniWatch?ref_src=twsrc%5Etfw">Tweets by UniWatch</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-height="100%" data-theme="dark" href="https://twitter.com/GretaVanFleet">Tweets by UniWatch</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
             </div>
 
@@ -216,24 +228,39 @@
 
               <div class="container" id="subwrap">
 
-                <h2 id="subName">Sub Name</h2>
+                <h2 id="subName">Updates</h2>
 
                 <div class="grid-wrapper">
-                	<div>
-                		<img src="https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" />
-                	</div>
-                	<div>
-                		<img src="https://images.unsplash.com/photo-1588282322673-c31965a75c3e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1351&amp;q=80" alt="" />
-                	</div>
-                	<div class="tall">
-                		<img src="https://images.unsplash.com/photo-1588117472013-59bb13edafec?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="">
-                	</div>
-                	<div class="wide">
-                		<img src="https://images.unsplash.com/photo-1587588354456-ae376af71a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" />
-                	</div>
-                	<div>
-                		<img src=" https://images.unsplash.com/photo-1558980663-3685c1d673c4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=60" alt="" />
-                	</div>
+
+                  <div id='box'>
+
+                    <div class="mainSlide6">
+                      <div class="Mainover"><p class="mainSlideText">Concert 12/8</p> </div>
+                    </div>
+
+                  </div>
+                  <div id='box' class="tall">
+
+                    <div class="mainSlide7">
+                      <div class="Mainover"><p class="mainSlideText">New Beat Release</p> </div>
+                    </div>
+
+                  </div>
+                  <div id='box'>
+
+                    <div class="mainSlide9">
+                      <div class="Mainover"><p class="mainSlideText">New Track</p> </div>
+                    </div>
+
+                  </div>
+                  <div id='box' class="wide">
+
+                    <div class="mainSlide8">
+                      <div class="Mainover"><p class="mainSlideText">Interview</p> </div>
+                    </div>
+
+                  </div>
+
 
 
                 </div>
@@ -246,7 +273,9 @@
 
           <div class="container" id='eventsCont'>
 
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <h2 id="updates">Upcoming Shows</h2>
+
+            <div id="carouselmusic" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -255,12 +284,24 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img class="d-block w-100" src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Van Gogh Pop-Up</h5>
+                    <p>3/7/2022</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100" src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Van Gogh Pop-Up</h5>
+                    <p>3/7/2022</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100" src="https://images.pexels.com/photos/1763067/pexels-photo-1763067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Van Gogh Pop-Up</h5>
+                    <p>3/7/2022</p>
+                  </div>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -292,23 +333,109 @@
 
         </div>
         <div id="hiding1">
-          <h3>hi</h3>
+
+          <div id="friendly" class="row">
+            <div class="col" id="socialName">
+              Johnny
+
+            </div>
+
+            <div class="col">
+              2 Updates
+            </div>
+
+          </div>
+
+          <div id="friendly" class="row">
+            <div class="col" id="socialName">
+              Alex
+
+            </div>
+
+            <div class="col">
+              1 Update
+            </div>
+
+          </div>
+
+          <div id="friendly" class="row">
+            <div class="col" id="socialName">
+              Vince Staples
+
+            </div>
+
+            <div class="col">
+              1 Update
+            </div>
+
+          </div>
         </div>
 
-        <div onclick="socialPop('hiding2')" id="messages">
+        <div onclick="socialPop2('hiding2')" id="messages">
           <h5 id="topfix"class="option"> Messages</h5>
 
         </div>
         <div id="hiding2">
-          <h3>hi</h3>
+
+          <div id="friendly" class="row friendly">
+            <div class="col" id="socialName">
+              Alex
+
+            </div>
+
+            <div class="col">
+              7 Messages
+            </div>
+
+          </div>
+
+          <div id="friendly" class="row">
+            <div class="col" id="socialName">
+              Apple
+
+            </div>
+
+            <div class="col">
+              5 Messages
+            </div>
+
+          </div>
+
+          <div id="friendly" class="row">
+            <div class="col" id="socialName">
+              Johnny
+
+            </div>
+
+            <div class="col">
+              1 Message
+            </div>
+
+          </div>
+
         </div>
 
-        <div onclick="socialPop('hiding3')" id="eventsOp">
+        <div onclick="socialPop3('hiding3')" id="eventsOp">
           <h5 id="topfix" class="option">Events</h5>
 
         </div>
         <div id="hiding3">
-          <h3>hi</h3>
+          <div id="eventsPic1">
+            <div class="over">
+              <h2 id="eventname">Greta Van Fleet Show</h2>
+            </div>
+          </div>
+          <div id="eventsPic2">
+            <div class="over">
+              <h2 id="eventname">Van Gogh Gallery</h2>
+            </div>
+          </div>
+          <div id="eventsPic3">
+            <div class="over">
+              <h2 id="eventname">iPhone Release</h2>
+            </div>
+          </div>
+
         </div>
 
       </div>

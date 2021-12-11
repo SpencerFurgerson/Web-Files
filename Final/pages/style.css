@@ -1,6 +1,9 @@
 
 #middle {
   background-color: #222222;
+  padding-bottom: 10vw;
+  background-image: url(img/roses-01.png);
+  background-size: cover;
 }
 
 #subBar {
@@ -69,7 +72,7 @@ img {
 	justify-content: center;
 	align-items: center;
 }
-.grid-wrapper > div > img {
+.grid-wrapper > div > div {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -101,7 +104,7 @@ img {
 
   padding: 1vw;
 
-  background-color: black;
+  background-color: #0d0d0d;
 }
 
 #hello {
@@ -109,7 +112,7 @@ img {
 }
 
 #subwrap {
-  background-color: black;
+  background-color: #0d0d0d;
   padding-top: 1vw;
   padding-bottom: 1vw;
 }
@@ -130,7 +133,7 @@ img {
 
 #carousel {
   margin-bottom: 2vw;
-  margin-right: 3vw;
+  margin-right: 2vw;
 }
 
 #events {
@@ -145,11 +148,29 @@ img {
   border-bottom: 2px solid #242424;
 }
 
+#album {
+
+  padding-right: 2vw;
+  margin-top: 3vw;
+  margin-right: 1vw;
+  padding-bottom: 2vw;
+  border-bottom: 2px solid #242424;
+
+}
+
 #leftName {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 20px;
+
+}
+
+#AlbName {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 
 }
 
@@ -203,9 +224,6 @@ a:default {
   margin-top: 5vw;
 }
 
-#box:hover {
-  background-color: black;
-}
 
 #hiding1, #hiding2, #hiding3{
 	visibility:hidden;
@@ -219,7 +237,7 @@ a:default {
 }
 
 #headBarArt {
-  background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("http://art-vangogh.com/image/Arles%20(1888-1889)/34%20Landscape%20Under%20a%20Stormy%20Sky.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -228,6 +246,157 @@ a:default {
   background-image: url("https://wallpapercave.com/wp/wp9226316.jpg");
   background-size: cover;
 }
+
+.mainSlide1 {
+  background-image: url("https://www.digitalartsonline.co.uk/cmsdata/slideshow/3776245/beck_-_hyperspace.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mainSlide2 {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/53b6eb62e4b06e0feb2d8e86/1607362705516-R5Q22H4FVIVPNMW8OWD7/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web.jpg?format=1500w");
+  background-size: cover;
+}
+
+
+.mainSlide3 {
+  background-image: url("https://media.npr.org/assets/img/2013/04/22/dark-side_sq-1da3a0a7b934f431c175c91396a1606b3adf5c83-s1100-c50.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.mainSlide4 {
+  background-image: url("https://images.macrumors.com/t/tA_RAlO-sKIrvULzR2aaVJ5Tyd4=/1920x/article-new/2019/02/MR-Future-Products-2020-2.png");
+  background-size: cover;
+}
+
+
+.mainSlide5 {
+  background-image: url("https://i1.adis.ws/i/canon/eos-m50-mark-ii-black-lifestyle-matt-adlard44-crop_f0f37e2c1acf4593a36fad78cf573d12?$hero-header-half-16by9-dt-jpg$");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.mainSlide6 {
+  background-image: url("https://i.pinimg.com/originals/3a/90/da/3a90da44ea6bdd3fbc190fd2a1dff2fe.jpg");
+  background-size: cover;
+}
+
+
+.mainSlide7 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHpuW457RJXfaNK5cfMfPumI_aQVS3fGwbUA&usqp=CAU");
+  background-size: cover;
+}
+
+
+.mainSlide8 {
+  background-image: url("https://purewows3.imgix.net/images/articles/2021_04/art-shows-nyc_CAT.png?auto=format,compress&cs=strip");
+  background-size: cover;
+}
+
+.mainSlide9 {
+  background-image: url("https://www.kesslerlawfirm.com/wp-content/uploads/2021/02/podcastneonlogo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mainSlide10 {
+  background-image: url("https://theknow-old.denverpost.com/wp-content/uploads/2019/11/KJD-191111-0076-1080x720.jpg");
+  background-size: cover;
+}
+
+.mainSlide11 {
+  background-image: url("https://media.architecturaldigest.com/photos/5890e88033bd1de9129eab0a/1:1/w_870,h_870,c_limit/Artist-Designed%20Album%20Covers%202.jpg");
+  background-size: cover;
+}
+
+.mainSlide12 {
+  background-image: url("https://www.adweek.com/wp-content/uploads/files/2016_Nov/casey-Neistat-daily-vlog-hed-a-2016.png");
+  background-size: cover;
+}
+
+
+
+.subSlide1 {
+  background-image: url("https://media.architecturaldigest.com/photos/5a00df9a3043ef0ce17b8fe2/1:1/w_3152,h_3152,c_limit/32-2_vanGogh-OliveOrchard_front.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.subSlide2 {
+  background-image: url("https://www.paint.org/wp-content/uploads/2019/11/Van-Gogh-The-Starry-Night-adult-coloring-page-1.jpg");
+  background-size: cover;
+}
+
+
+.subSlide3 {
+  background-image: url("https://static01.nyt.com/images/2019/03/27/arts/26VANGOGH-BRITAIN-1/merlin_152403333_3552f80f-9675-4951-bc32-0b8cbdbfa090-superJumbo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.subSlide4 {
+  background-image: url("https://thepaintsesh.com/wp-content/uploads/2018/12/DSC_0198-compressor.jpg");
+  background-size: cover;
+}
+
+
+.subSlide5 {
+  background-image: url("https://cdn.decoist.com/wp-content/uploads/2017/04/Art-studio-with-a-desk-in-the-center-of-the-room--870x520.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.subSlide6 {
+  background-image: url("https://www.caldwell.edu/wp-content/uploads/2021/04/74331126_733566147107755_7179495313705533440_n.jpg");
+  background-size: cover;
+}
+
+
+.subSlide7 {
+  background-image: url("https://images.pexels.com/photos/1005711/pexels-photo-1005711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+
+.subSlide8 {
+  background-image: url("img/red.png");
+  background-size: cover;
+}
+
+.subSlide9 {
+  background-image: url("https://images.pexels.com/photos/556669/pexels-photo-556669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+}
+
+.subSlide10 {
+  background-image: url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.subSlide11 {
+  background-image: url("https://images.pexels.com/photos/4021521/pexels-photo-4021521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.subSlide12 {
+  background-image: url("https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+}
+
+.subSlide13 {
+  background-image: url("https://images.pexels.com/photos/51548/pexels-photo-51548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+
+
 
 #Headtext {
   margin-left: 3vw;
@@ -254,23 +423,23 @@ a:default {
 }
 
 #beat1 {
-  background-color: red;
+  background: linear-gradient(#e66465, #3f1785);
 }
 
 #beat2 {
-  background-color: blue;
+  background: linear-gradient(#e66465, #edb602);
 }
 
 #beat3 {
-  background-color: green;
+  background: linear-gradient(#179138, #9198e5);
 }
 
 #beat4 {
-  background-color: yellow;
+  background: linear-gradient(#edb602, #9198e5);
 }
 
 #beat5 {
-  background-color: orange;
+  background: linear-gradient(#3f1785, #179138);
 }
 
 #beat1, #beat2, #beat3, #beat4, #beat5 {
@@ -281,18 +450,272 @@ a:default {
 }
 
 #allCols {
-  margin-right: 3vw;
-  margin-top: 2vw;
+  margin-right: 2vw;
+  margin-top: 3vw;
+  padding-left: 4vw;
+  padding-right: 2vw;
 }
 
 #musicPlayer {
-  background-color: black;
+  background-image: url("https://i.ytimg.com/vi/kLb5okKE4XI/maxresdefault.jpg");
+  background-size: cover;
+  background-position: right;
+  padding-left: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 8vw;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #exploreText {
   color: white;
+  text-align: center;
+  padding-top: 1vw;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
 }
 
 #full {
   padding: 5vw;
+  padding-top: 15vw;
+  padding-bottom: 10vw;
+}
+
+#full img {
+  border-radius: 10px;
+
+}
+
+#productsR {
+  padding-bottom: 3vw;
+}
+
+#artProducts {
+  padding-left: 5vw;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 1vw;
+}
+
+#sub1 img {
+  border-radius: 8px;
+  width: 8vw;
+}
+
+#subPic:hover {
+  margin-top: 0.5vw;
+  transition: 0.5s;
+}
+
+
+.text {
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#box:hover .text {
+  opacity: 1;
+}
+
+#friendly{
+  color: white;
+  padding-left: 1vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  transition: 0.5s
+}
+
+#carouselmusic {
+  padding-top: 1vw;
+}
+
+#products {
+  padding-bottom: 3vw;
+}
+
+#updates {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 2vw;
+
+}
+
+#play {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#filt1 {
+  background-image: url("img/red.png");
+  background-size: cover;
+}
+
+#filt2 {
+  background-image: url("img/green.png");
+  background-size: cover;
+}
+
+#filt3 {
+  background-image: url("img/orange.png");
+  background-size: cover;
+}
+
+#filt4 {
+  background-image: url("img/blue.png");
+  background-size: cover;
+}
+
+#filt1, #filt2, #filt3, #filt4 {
+  margin-bottom: 3vw;
+  width: 125px;
+  height: 125px;
+  margin-right: 1vw;
+}
+
+#artcarousel {
+  padding-top: 1vw;
+  margin-left: -1vw;
+}
+
+#eventsPic1 {
+  background-image: url("https://i.ytimg.com/vi/boUs9zt1ZhA/maxresdefault.jpg");
+  background-size: cover;
+  background-color: black;
+
+}
+
+
+
+#eventsPic2 {
+  background-image: url("https://th-thumbnailer.cdn-si-edu.com/GWxauDhOnh2nGYaZnvX9CP2cZgo=/fit-in/1600x0/filters:focal(2409x1653:2410x1654)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/f3/fa/f3fa8097-4f45-4555-96de-a6cc736e6587/van_gogh_angle1_starry_night_300dpi.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#eventsPic3 {
+  background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/17DDC/production/_120565779_iphone13colours.png");
+  background-size: cover;
+}
+
+#eventname {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  color: white;
+  padding-left: 1vw;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.over:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: .5s ease;
+}
+
+
+.overB:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: .5s ease;
+  padding-bottom: 16vw;
+  border-radius: 10px;
+}
+
+.overB {
+  padding-bottom: 16vw;
+  border-radius: 10px;
+}
+
+.artBack {
+  background-image: url("https://ae01.alicdn.com/kf/HTB10COiRFXXXXb7XFXXq6xXFXXXy/DANKEYISI-Van-Gogh-Oil-Painting-Real-Silk-Scarf-Square-90-90cm-Big-Fashion-Women-Scarf-Luxury.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.prodBack {
+  background-image: url("https://ae01.alicdn.com/kf/H129e256552dc4c6898d3a9b5c78d86e7F/Luxury-Plating-Square-Edge-Clear-Case-For-iPhone-11-Pro-Max-11Pro-XS-X-XR-7.jpg_Q90.jpg_.webp");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.musicBack {
+  background-image: url("https://awesometotallyawesome.com/wp-content/uploads/181112-ATA-greta-van-fleet-lover-leaver.jpg");
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+#hider {
+  visibility: hidden;
+}
+
+#eventsPic1, #eventsPic2, #eventsPic3 {
+  height: 0px;
+  transition: 0.5s;
+}
+
+#eventname {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.Mainover:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: .5s ease;
+}
+
+.Mainover:hover > p {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.Mainover {
+  padding-bottom: 10vw;
+  text-align: center;
+}
+
+.mainSlideText {
+  color: white;
+  opacity: 0;
+  padding-top: 10px;
+}
+
+.mainSlideText:hover {
+  color: white;
+  opacity: 1;
+  transition: 0.5s;
+
+}
+
+#playBut {
+  margin-bottom: -8vw;
+  margin-left: 0vw;
+}
+
+#space {
+  visibility: hidden;
+}
+
+#prodName {
+  margin-left: 4vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#socialName {
+  font-weight: bold;
 }
