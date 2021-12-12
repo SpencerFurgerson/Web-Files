@@ -318,6 +318,78 @@ a:default {
 }
 
 
+.prodSlide1 {
+  background-image: url("https://www.xda-developers.com/files/2021/07/5985617_sd-903x1024.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prodSlide2 {
+  background-image: url("https://img.diverseeducation.com/files/base/diverse/all/image/2021/09/16x9/Apple_Device.613f9eecd8d41.png?auto=format%2Ccompress&fit=max&w=1280");
+  background-size: cover;
+}
+
+
+.prodSlide3 {
+  background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-12/211208-apple-store-al-0737-4f4c31.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.prodSlide4 {
+  background-image: url("https://idsb.tmgrup.com.tr/ly/uploads/images/2021/12/08/165660.jpg");
+  background-size: cover;
+}
+
+
+.prodSlide5 {
+  background-image: url("https://api.time.com/wp-content/uploads/2014/09/apple-watch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.prodSlide6 {
+  background-image: url("https://www.popsci.com/uploads/2021/04/20/airtags.jpg?auto=webp&width=1440&height=959.68169761273");
+  background-size: cover;
+}
+
+
+.prodSlide7 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HP8L2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1593730581000");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.prodSlide8 {
+  background-image: url("https://e3.365dm.com/21/04/2048x1152/skynews-apple-airtag_5350520.jpg");
+  background-size: cover;
+}
+
+.prodSlide9 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/KqbMWGnUsFojNKvDOesn1xIv_XE=/0x0:2524x1432/1200x800/filters:focal(1061x515:1463x917)/cdn.vox-cdn.com/uploads/chorus_image/image/66658764/Screen_Shot_2020_04_15_at_4.13.10_PM.0.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.prodSlide10 {
+  background-image: url("https://www.hellomagazine.com/imagenes/homes/20211126127124/best-black-friday-apple-deals/0-613-477/apple-main-t.jpg");
+  background-size: cover;
+}
+
+.prodSlide11 {
+  background-image: url("https://media.wired.com/photos/607f130d8b8cd2f789408f36/16:9/w_2399,h_1349,c_limit/Gear-apple_new-imac-spring21_hero_04202021.jpg");
+  background-size: cover;
+}
+
+.prodSlide12 {
+  background-image: url("https://images.macrumors.com/t/tA_RAlO-sKIrvULzR2aaVJ5Tyd4=/1920x/article-new/2019/02/MR-Future-Products-2020-2.png");
+  background-size: cover;
+}
+
+
 
 .subSlide1 {
   background-image: url("https://media.architecturaldigest.com/photos/5a00df9a3043ef0ce17b8fe2/1:1/w_3152,h_3152,c_limit/32-2_vanGogh-OliveOrchard_front.jpg");
@@ -397,6 +469,108 @@ a:default {
 
 
 
+.artSlide1 {
+  background-image: url("https://media.architecturaldigest.com/photos/5a00df9a3043ef0ce17b8fe2/1:1/w_3152,h_3152,c_limit/32-2_vanGogh-OliveOrchard_front.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.artSlide2 {
+  background-image: url("https://www.paint.org/wp-content/uploads/2019/11/Van-Gogh-The-Starry-Night-adult-coloring-page-1.jpg");
+  background-size: cover;
+}
+
+
+.artSlide3 {
+  background-image: url("https://static01.nyt.com/images/2019/03/27/arts/26VANGOGH-BRITAIN-1/merlin_152403333_3552f80f-9675-4951-bc32-0b8cbdbfa090-superJumbo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.artSlide4 {
+  background-image: url("https://thepaintsesh.com/wp-content/uploads/2018/12/DSC_0198-compressor.jpg");
+  background-size: cover;
+}
+
+
+.artSlide5 {
+  background-image: url("https://cdn.decoist.com/wp-content/uploads/2017/04/Art-studio-with-a-desk-in-the-center-of-the-room--870x520.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.artSlide6 {
+  background-image: url("https://www.caldwell.edu/wp-content/uploads/2021/04/74331126_733566147107755_7179495313705533440_n.jpg");
+  background-size: cover;
+}
+
+
+.artSlide7 {
+  background-image: url("https://images.pexels.com/photos/1005711/pexels-photo-1005711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+
+.artSlide8 {
+  background-image: url("img/red.png");
+  background-size: cover;
+}
+
+.artSlide9 {
+  background-image: url("https://images.pexels.com/photos/556669/pexels-photo-556669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+}
+
+.artSlide10 {
+  background-image: url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.artSlide11 {
+  background-image: url("https://images.pexels.com/photos/4021521/pexels-photo-4021521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.artSlide12 {
+  background-image: url("https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+}
+
+.artSlide13 {
+  background-image: url("https://images.pexels.com/photos/51548/pexels-photo-51548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+
+
+.upSlide1 {
+  background-image: url("https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+
+.upSlide2 {
+  background-image: url("https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+
+.upSlide3 {
+  background-image: url("https://media.vanityfair.com/photos/60788272d115d425b54e8570/master/w_2560%2Cc_limit/Greta-van-Fleet-Interview-Lede.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.upSlide4 {
+  background-image: url("https://media2.fdncms.com/metrotimes/imager/u/original/28474920/shutterstock_1447160489.jpg");
+  background-size: cover;
+}
+
+
+
+
 
 #Headtext {
   margin-left: 3vw;
@@ -410,8 +584,22 @@ a:default {
   color: white;
 }
 
-.bottomBar {
-  background-color: rgba(0, 0, 0, 0.5);
+.bottomBar1 {
+  background-color: rgba(255,215,0, 0.3);
+  color: white;
+  margin-top: 7vw;
+}
+
+
+.bottomBar2 {
+  background-color: rgba(128,128,128, 0.6);
+  color: white;
+  margin-top: 7vw;
+}
+
+
+.bottomBar3 {
+  background-color: rgba(205, 127, 50, 0.6);
   color: white;
   margin-top: 7vw;
 }
@@ -638,6 +826,17 @@ a:default {
   border-radius: 10px;
 }
 
+.overP:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.overP {
+  border-radius: 10px;
+  padding-bottom: 12vw;
+}
+
 .artBack {
   background-image: url("https://ae01.alicdn.com/kf/HTB10COiRFXXXXb7XFXXq6xXFXXXy/DANKEYISI-Van-Gogh-Oil-Painting-Real-Silk-Scarf-Square-90-90cm-Big-Fashion-Women-Scarf-Luxury.jpg");
   background-size: cover;
@@ -649,6 +848,31 @@ a:default {
   background-size: cover;
   border-radius: 10px;
 }
+
+.prodBack1 {
+  background-image: url("https://ae01.alicdn.com/kf/H129e256552dc4c6898d3a9b5c78d86e7F/Luxury-Plating-Square-Edge-Clear-Case-For-iPhone-11-Pro-Max-11Pro-XS-X-XR-7.jpg_Q90.jpg_.webp");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.prodBack2 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-202109_FMT_WHH?wid=2000&hei=2000&fmt=jpeg&qlt=80&.v=1631751019000");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.prodBack3 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FWVE2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1580325926892");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.prodBack4 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-2019-imac-27-gallery?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1559961087002");
+  background-size: cover;
+  border-radius: 10px;
+}
+
 
 .musicBack {
   background-image: url("https://awesometotallyawesome.com/wp-content/uploads/181112-ATA-greta-van-fleet-lover-leaver.jpg");
@@ -718,4 +942,8 @@ a:default {
 
 #socialName {
   font-weight: bold;
+}
+
+#download {
+  margin-top: 4vw;
 }
